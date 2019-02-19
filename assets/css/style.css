@@ -1,0 +1,73 @@
+/* .brd {
+    border: 1px solid red;
+} */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    margin-top: 50px;
+}
+
+.container-top {
+    height: 150px;
+}
+
+.badge {
+    border-bottom: 2px solid gray;
+}
+
+.bank {
+    border-left: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.board {
+   max-height: 400px;
+}
+
+.underscore {
+    position: relative;
+    text-align: center;
+    font-size: 97px;
+    color: red;
+    bottom: 391px;
+}
+
+.container-btm {
+    height: 500px;
+}
+
+.aside-info {
+    margin-top: 30%;
+    
+}
+
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-bottom: 50px;
+     
+}
+
+
+
+
+
+
+font-family: 'Righteous', cursive;
