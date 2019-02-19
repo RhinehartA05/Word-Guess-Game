@@ -21,6 +21,9 @@ JS:
     If word is guessed is true, add 1 point to wins
     After the user wins/loses the game should automatically choose another word and make the user play it.
 
+<!-- https://www.youtube.com/watch?v=f5BbzXgvi1o -->
+
+
     Word Bank:
         
 

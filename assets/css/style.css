@@ -1,6 +1,6 @@
-/* .brd {
+.brd {
     border: 1px solid red;
-} */
+}
 
 body {
     background-color: black;
@@ -18,27 +18,28 @@ font-size: 18px;
 
 img {
     max-width: 100%;
+    
 }
 
 header {
-    margin-top: 50px;
+    margin-top: 25px;
+}
+
+section {
+    max-width: 500%;
 }
 
 .container-top {
-    height: 150px;
+    height: 100%;
 }
 
 .badge {
     border-bottom: 2px solid gray;
 }
 
-.bank {
-    border-left: 2px solid gray;
-    border-bottom: 2px solid gray;
-}
 
 .board {
-   max-height: 400px;
+   height: 300px;
 }
 
 .underscore {
@@ -50,7 +51,7 @@ header {
 }
 
 .container-btm {
-    height: 500px;
+    max-height: 100%;
 }
 
 .aside-info {
