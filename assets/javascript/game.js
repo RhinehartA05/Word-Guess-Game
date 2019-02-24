@@ -1,50 +1,35 @@
-//Create Array of the alphabet and words
-let alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
-let word = ['confused','hardware','resource','tomorrow','firewall','internet'];
 
+//Computer chooses random word
+let word = ['building','hardware','resource','computer','firewall','internet']; 
 
-// let spaces = ['_','_','_','_','_','_','_','_']
-let notGuessed = word.length;
-
-
-
-
-
-
-//Computer chooses word randomly
-let random = Math.floor(Math.random() * word.length); //returns a random word
+let random = Math.floor(Math.random() * word.length); //picks random word
 let blank = word[random] //the random word will be equal to blank
-console.log(blank);
+console.log(blank); //console shows random word which equals to blank
 
-//creating underscore
-let underScore = [];
-for (let i = 0; i < word.length; i++){
-    underScore[i]= "_";
-};
-
-while (notGuessed > 0){
-
-};
- 
-
-
-// let add = function() { //copy paste
-//     console.log("add stuff"); //copy paste
-// }
-
-//Get guess of player
-document.onkeyup = function(event){
-    var playerGuess = event.key
-
-    if (playerGuess === "r")
-
-    console.log("Your guess: " + playerGuess);
-
+//Correct Answers
+let answerBlank = [];
+for (let i = 0; i < blank.length;i++){
+    answerBlank[i] = '_'; //creates underscores for each word
 }
+let lettersRemaining = word.length;
+while (lettersRemaining > 0) {
+console.log(answerBlank.join());
+break;
+};
 
-//Create if, else if, else statements based on choice of letter
+// //Incorrect Answers
+
+//Get Player Guesses
 
 
 
-//move wrong guess to incorrect
-//if right guess add letter to word
+
+
+
+// for (let j = 0; j <word.length; j++){
+//     if (word[j] === userGuess){
+//         answerBlank[j] = userGuess;
+//         lettersRemaining- -;
+//     }
+// };
+
